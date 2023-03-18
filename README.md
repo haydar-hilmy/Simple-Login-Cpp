@@ -1,13 +1,13 @@
-# Simple Login Use C++
+  # Simple Login Use C++
 
-preview code :
+  preview code :
 
-#include <iostream>
+  #include <iostream>
 
-using namespace std;
+  using namespace std;
 
-bool login(string usr, string pass)
-{
+  bool login(string usr, string pass)
+  {
     if (usr == "admin" && pass == "admin")
     {
         return 1;
